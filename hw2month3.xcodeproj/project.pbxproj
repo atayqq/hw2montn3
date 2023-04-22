@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E681A3529F06D840073EAC9 /* NewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E681A3429F06D840073EAC9 /* NewPasswordViewController.swift */; };
+		6E681A3729F06EBA0073EAC9 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E681A3629F06EBA0073EAC9 /* SuccessViewController.swift */; };
+		6E7BB03829EED0F800383EAB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BB03729EED0F800383EAB /* SignUpViewController.swift */; };
+		6E7BB06529EF20FD00383EAB /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7BB06429EF20FD00383EAB /* ForgetPasswordViewController.swift */; };
 		6EBD550A29EAC8D300A30A7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBD550929EAC8D300A30A7C /* AppDelegate.swift */; };
 		6EBD550C29EAC8D300A30A7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBD550B29EAC8D300A30A7C /* SceneDelegate.swift */; };
 		6EBD550E29EAC8D300A30A7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBD550D29EAC8D300A30A7C /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E681A3429F06D840073EAC9 /* NewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordViewController.swift; sourceTree = "<group>"; };
+		6E681A3629F06EBA0073EAC9 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		6E7BB03729EED0F800383EAB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6E7BB06429EF20FD00383EAB /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 		6EBD550629EAC8D300A30A7C /* hw2month3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw2month3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBD550929EAC8D300A30A7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EBD550B29EAC8D300A30A7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E7BB03529EED08C00383EAB /* Delegate  */ = {
+			isa = PBXGroup;
+			children = (
+				6EBD550929EAC8D300A30A7C /* AppDelegate.swift */,
+				6EBD550B29EAC8D300A30A7C /* SceneDelegate.swift */,
+			);
+			path = "Delegate ";
+			sourceTree = "<group>";
+		};
+		6E7BB03629EED09E00383EAB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6EBD550D29EAC8D300A30A7C /* ViewController.swift */,
+				6E7BB03729EED0F800383EAB /* SignUpViewController.swift */,
+				6E7BB06429EF20FD00383EAB /* ForgetPasswordViewController.swift */,
+				6E681A3429F06D840073EAC9 /* NewPasswordViewController.swift */,
+				6E681A3629F06EBA0073EAC9 /* SuccessViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		6EBD54FD29EAC8D300A30A7C = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +85,8 @@
 		6EBD550829EAC8D300A30A7C /* hw2month3 */ = {
 			isa = PBXGroup;
 			children = (
-				6EBD550929EAC8D300A30A7C /* AppDelegate.swift */,
-				6EBD550B29EAC8D300A30A7C /* SceneDelegate.swift */,
-				6EBD550D29EAC8D300A30A7C /* ViewController.swift */,
+				6E7BB03629EED09E00383EAB /* Controllers */,
+				6E7BB03529EED08C00383EAB /* Delegate  */,
 				6EBD550F29EAC8D300A30A7C /* Main.storyboard */,
 				6EBD551229EAC8D500A30A7C /* Assets.xcassets */,
 				6EBD551429EAC8D500A30A7C /* LaunchScreen.storyboard */,
@@ -139,7 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EBD550E29EAC8D300A30A7C /* ViewController.swift in Sources */,
+				6E681A3729F06EBA0073EAC9 /* SuccessViewController.swift in Sources */,
+				6E7BB06529EF20FD00383EAB /* ForgetPasswordViewController.swift in Sources */,
+				6E681A3529F06D840073EAC9 /* NewPasswordViewController.swift in Sources */,
 				6EBD550A29EAC8D300A30A7C /* AppDelegate.swift in Sources */,
+				6E7BB03829EED0F800383EAB /* SignUpViewController.swift in Sources */,
 				6EBD550C29EAC8D300A30A7C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
